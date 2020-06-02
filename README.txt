@@ -29,7 +29,11 @@ Modules:
 	-Each file is compared to every other file so ETC grows exponentially with the number of target files
 	-Uses four children jobs to go faster, you will need to run kill-them-all.bash to stop them before they finish
 
-8. Process-Results
+8. Process-Results-(DS)
 	-Used to run through results files from module 7 and move groups of potential duplicates through a "review" folder
+	-User presses enter to move whatever is left in review folder to a folder called "Originals" and advance to the next set
+	-User deletes what they don't want to keep from each set leaves what they do in place for the script to relocate to "Originals"
+9. Process
+	-Used to run through results files from modules (except 7) and move groups of potential duplicates through a "review" folder
 	-User presses enter to move whatever is left in review folder to a folder called "Originals" and advance to the next set
 	-User deletes what they don't want to keep from each set leaves what they do in place for the script to relocate to "Originals"
